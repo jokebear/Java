@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main_B_1260_DFS와BFS {
 	// https://www.acmicpc.net/problem/1260
+	// arraylist, collection sort 로 그래프 구현
 	static ArrayList<Integer>[] graph;
 	static boolean[] visit;
 	static int N;
