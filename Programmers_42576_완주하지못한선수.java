@@ -4,6 +4,7 @@ import java.util.Iterator;
 public class Programmers_42576_완주하지못한선수 {
 	
 	 // https://programmers.co.kr/learn/courses/30/lessons/42576?language=java
+	 // HashMap에 사람 이름 키, 카운트를 밸류로 저장해놓고 확인할때마다 값 -1 혹은 삭제해서 남은 이름을 확인
 	 public static String solution(String[] participant, String[] completion) {
 	    	String answer = "";
 		 	HashMap<String,Integer> map = new HashMap();
