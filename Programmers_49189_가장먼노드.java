@@ -9,7 +9,7 @@ public class Programmers_49189_가장먼노드 {
 	// 최단거리 저장 array
 	public static int solution(int n, int[][] edge) {
         
-		int answer = 0;
+	int answer = 0;
         // 최단거리 저장 및 방문여부 
         int[] visit = new int[n+1];
         // 간선 저장
